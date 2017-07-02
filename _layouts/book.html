@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<div class="row pv4">
+
+  <div class="row dib pr4 fw8 xxl"> {{ page.title }}</div>
+  <div class="nt3">
+      <div class="italic l">- {{ page.author }}</div>
+      <div class="dark_muted">
+        <span>Started: {{ page.start-date }}</span> | <span>Finished: {{ page.end-date }}</span>
+      </div>
+      <div class="dark_muted dib ba ph2 bg_brand-green_dark_hovered light_hovered">{{ page.rating }}/20</div>
+  </div>
+</div>
+
+
+<div class="">
+  {{ content }}
+</div>

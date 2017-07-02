@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<div class=" fw8 l pv4 ">
+  <span class="">Project Name: {{ page.title }}</span>
+</div>
+<div class="pb4">
+  <img src="{{ site.github.url }}{{ page.image }}" alt="" class="project__icon">
+</div>
+<div class=" fw8 l ">
+  <span class="">Start date: {{ page.date | date_to_string }}</span>
+</div>
+
+
+<div class="pv4">
+{{ content }}
+</div>

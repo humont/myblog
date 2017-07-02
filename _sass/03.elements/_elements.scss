@@ -1,0 +1,53 @@
+/*----------------------------------------*/
+/*-- Base/Element styles -----------------*/
+/*----------------------------------------*/
+
+html {
+  margin: 0;
+  color: $text-color_dark;
+  line-height: 1.6;
+  font-family: $body-fonts;
+  font-size: 16px;
+}
+
+@include medium-up {
+  html {
+    font-size: 18px;
+  }
+}
+
+@include large-up {
+  html {
+    font-size: 22px;
+  }
+}
+
+body {
+  background-color: $background-color;
+  margin: auto;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+header, main, footer {
+  flex: 1;
+}
+
+a {
+  color: $primary-color;
+}
+
+a:hover {
+  color: $primary-color_v-dark
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+h1,h2,h3,h4 {
+  margin: 0 0;
+}
