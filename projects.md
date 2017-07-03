@@ -12,7 +12,7 @@ layout: default
 <a href="{{ site.github.url }}{{ project.url }}" class="mh-auto project__card pr1 no-underline dark dark_hovered">
 <div class="col s1of2 pa2  brdr_brand-green bg_brand-green_light_hovered">
   <div class="">
-    <div class="row">
+    <div class="tc">
       <img src="{{ site.github.url }}{{ project.image }}" alt="" class="project__icon_thumbnail mv3 mh-auto">
     </div>
     <div class="row">
