@@ -1,5 +1,5 @@
 ---
-title: Your awesome title
+title: HuMont
 timezone: UTC
 collections:
   assets:
@@ -17,14 +17,11 @@ collections:
   uploads:
     title: Uploads
     output: true
-email: your-email@domain.com
-description: 'Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
-
-'
-baseurl: ''
-url: ''
+email: 
+description: Here's a little website in which I log what I learn. It should be useful
+  to me, hopefully, it can be useful for you.
+baseurl: 
+url: 
 twitter_username: jekyllrb
 github_username: jekyll
 markdown: kramdown
