@@ -17,15 +17,13 @@ collections:
   uploads:
     title: Uploads
     output: true
-email: 
+email:
 description: Here's a little website in which I log what I learn. It should be useful
   to me, hopefully, it can be useful for you.
-baseurl: 
-url: 
-twitter_username: jekyllrb
-github_username: jekyll
+baseurl:
+url:
+github_username: humont
 markdown: kramdown
-theme: minima
 gems:
 - jekyll-feed
 exclude:
