@@ -2,19 +2,29 @@
 layout: default
 ---
 
-<div class="row pv4">
+<div class="row pt4">
 
   <div class="row dib pr4 fw8 xxl"> {{ page.title }}</div>
-  <div class="nt3">
-      <div class="italic l">- {{ page.author }}</div>
-      <div class="dark_muted">
-        <span>Started: {{ page.start-date }}</span> | <span>Finished: {{ page.end-date }}</span>
-      </div>
-      <div class="dark_muted dib ba ph2 bg_brand-green_dark_hovered light_hovered">{{ page.rating }}/20</div>
-  </div>
+  <div class="row tti nt3 l">- {{ page.author }}</div>
 </div>
 
 
-<div class="">
-  {{ content }}
+
+
+
+<div class="row">
+
+  <div class="pr3 pt4_m">
+    <div class="s dark_muted">
+      <span class="pb3 pr2_s">Started:<br class="m-l_only"> {{ page.start-date }}</span><br class="m-l_only">
+      <span class="pb3 pr2_s">Finished:<br class="m-l_only"> {{ page.end-date }}</span><br class="m-l_only">
+      <span class="pb3">Rating:</span><br class="m-l_only">
+      <span class="dark_muted dib ba ph2 bg_brand-green_dark_hovered light_hovered">{{ page.rating }}/20</span>
+    </div>
+  </div>
+
+  <div class="col post__content">
+      {{ content }}
+  </div>
+
 </div>
