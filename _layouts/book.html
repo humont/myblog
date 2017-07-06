@@ -16,8 +16,8 @@ layout: default
 
   <div class="pr3 pt4_m">
     <div class="s dark_muted">
-      <span class="pb3 pr2_s">Started:<br class="m-l_only"> {{ page.start-date }}</span><br class="m-l_only">
-      <span class="pb3 pr2_s">Finished:<br class="m-l_only"> {{ page.end-date }}</span><br class="m-l_only">
+      <span class="pb3 pr2_s">Started:<br class="m-l_only"> {{ page.start-date | date_to_long_string }}</span><br class="m-l_only">
+      <span class="pb3 pr2_s">Finished:<br class="m-l_only"> {{ page.end-date | date_to_long_string}}</span><br class="m-l_only">
       <span class="pb3">Rating:</span><br class="m-l_only">
       <span class="dark_muted dib ba ph2 bg_brand-green_dark_hovered light_hovered">{{ page.rating }}/20</span>
     </div>
