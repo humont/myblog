@@ -3,8 +3,13 @@ layout: default
 ---
 
 <h1 class="pt4"> {{ page.title }}</h1>
-{{ page.date | date_to_long_string }}
+<div class="row">
+  <div class=" pr3 pt4_m dark_muted">
+    <span class="s pr1_s">{{ page.date | date: "%-d %B" }}</span><br class="m-l_only"
+    <span class="s">{{ page.date | date: "%Y" }}</span>
+  </div>
+  <div class="col post__content">
+    {{ content }}
+  </div>
 
-<div class="pv4">
-{{ content }}
 </div>

@@ -1,5 +1,5 @@
 ---
-title: It's really simple
+title: It's Really Simple
 date: 2017-07-02 00:00:00 Z
 layout: post
 ---
