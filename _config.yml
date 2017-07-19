@@ -18,28 +18,26 @@ collections:
     title: Uploads
     output: true
 defaults:
-  -
-    scope:
-      path: ''
-      type: "projects"
-    values:
-      image: "/assets/no-image.png"
-  -
-    scope:
-      path: ''
-      type: "readings"
-    values:
-      title:
-      author:
-      rating:
-      start-date:
-      end-date:
-      layout: book
-email:
+- scope:
+    path: ''
+    type: projects
+  values:
+    image: "/assets/no-image.png"
+- scope:
+    path: ''
+    type: readings
+  values:
+    title: 
+    author: 
+    rating: 
+    start-date: 
+    end-date: 
+    layout: book
+email: 
 description: Here's a little website in which I log what I learn. It should be useful
   to me, hopefully, it can be useful for you.
-baseurl:
-url:
+baseurl: 
+url: 
 github_username: humont
 markdown: kramdown
 gems:
